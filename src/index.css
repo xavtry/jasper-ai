@@ -1,1 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1e1b4b 0%, #0f0f2d 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+::selection {
+  background: #7c3aed;
+  color: white;
+}
